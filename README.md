@@ -32,4 +32,8 @@ pip install streamlit
 ### Running the application
 streamlit run streamlit_whisper.py
 
-
+## Usage Instructions
+- Upload an Audio File: Click on the "Upload Audio" button to upload an audio file in WAV, MP3, or M4A format.
+- Transcribe Audio: After uploading, click the "Transcribe Audio" button in the sidebar. The transcription process will begin, and you will be notified upon completion.
+- View Transcription: The transcribed text will be displayed on the main page once the transcription is complete.
+- Play Original Audio: You can play the original audio file using the built-in audio player in the sidebar.
