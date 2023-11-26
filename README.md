@@ -17,16 +17,16 @@ AudioScribe is a web application built with Streamlit that utilizes OpenAI's Whi
 ### Install Dependencies
 Execute the following commands in your Conda environment:
 
-# Install FFmpeg
+## Install FFmpeg
 conda install ffmpeg
 
-# Install PyTorch with CUDA Support
+## Install PyTorch with CUDA Support
 conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
 
-# Install Whisper
+## Install Whisper
 pip install git+https://github.com/openai/whisper.git -q
 
-# Install Streamlit
+## Install Streamlit
 pip install streamlit
 
 ##Running the application
