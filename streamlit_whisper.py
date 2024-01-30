@@ -31,10 +31,9 @@ def save_transcript_pdf(transcript):
     pdf.add_page()
     pdf.set_font("Arial", size=12)
     for line in transcript.split('\n'):
-        pdf.cell(200, 10, txt=line, ln=True, align='L')
-    pdf_output = io.BytesIO()
-    pdf.output(dest='S', name=pdf_output)  # Save to BytesIO buffer
-    pdf_output.seek(0)
+        pdf.cell(0, 10, txt=line, ln=True, align='L')
+    pdf_content = pdf.output(dest='S').encode('latin1')  # Output as string and encode to bytes
+    pdf_output = io.BytesIO(pdf_content)  # Create BytesIO object with PDF content
     return pdf_output
 
 # Function to save transcript as DOCX
