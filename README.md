@@ -1,7 +1,7 @@
 # AudioScribe
 
 ## Introduction
-AudioScribe is a web application built with Streamlit that utilizes OpenAI's Whisper model for transcribing audio files. It offers a user-friendly interface for uploading audio files in various formats (WAV, MP3, M4A) and receiving their transcriptions.
+AudioScribe is a web application built with Streamlit that utilizes OpenAI's Whisper model for transcribing audio files. It offers a user-friendly interface for uploading audio files in various formats (WAV, MP3, M4A) and receiving their transcriptions, also provides the user with the option to download their transcriptions in TXT, DOCX, or PDF formats.
 
 ## Requirements
 - Python
